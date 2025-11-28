@@ -26,5 +26,5 @@ public class AccountParser {
         return as == null ? null :
             as.stream().map(AccountParser::to).toList();
     }
-    
+
 }
